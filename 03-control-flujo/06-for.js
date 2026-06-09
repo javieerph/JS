@@ -29,3 +29,22 @@ console.log('ciclo for of')
 for(let animal of animales)
 	console.log(animal);
 
+//ciclo for in
+//se usa para imprimir las propiedades de un objeto
+console.log('ciclo for in')
+
+let user = {
+	id: 152,
+	name: 'Pedro Rodriguez',
+	age: 26,
+};
+
+for(let prop in user)
+{
+	console.log(prop, user[prop]);
+}
+	console.log(user['name']);
+
+for(let indice in animales)
+	console.log(indice, animales[indice]);
+
